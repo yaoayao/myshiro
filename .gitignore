@@ -1,7 +1,7 @@
 ﻿# 统一排除目录
 
 ### Maven ###
-*/target
+/target
 
 ### IntelliJ IDEA ###
 .idea
