@@ -40,7 +40,7 @@ public class MyTestShiro {
         subject.logout();
     }
 
-    private void login(String configFile) {
+    public static void login(String configFile) {
         //1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
         Factory<org.apache.shiro.mgt.SecurityManager> factory =
                 new IniSecurityManagerFactory(configFile);
